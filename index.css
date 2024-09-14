@@ -1,0 +1,47 @@
+div {
+    text-align: center;
+}
+
+#Top {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Title {
+    font-size: 2rem;
+}
+
+#SubTitle {
+    font-size: 1.5rem;
+}
+
+input{
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+button:active {
+    background-color: darkblue;
+    color: white
+}
