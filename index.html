@@ -12,8 +12,19 @@
         <label for="DiceNumber">How many dice do you want?:</label>
         <input type="number" id="DiceNumber" value="1" min="1" max="10"><br>
         <label for="PlayerNumber">How many Players:</label>
-        <input type="number" id="DiceNumber" value="1" min="1" max="10"><br>
+        <input type="number" id="PlayerNumber" value="2" min="2" max="5"><br>
         <button id="Start">Play</button>
+    </div>
+    <div id="GameMenu" hidden>
+        <label id="Turn">Player 1's Turn</label><br>
+        <label id="TurnScore">Score: 0</label><br>
+        <label id="ScoreBanked">Banked Points: 0</label><br>
+        <label id="DiceScore">Dices: </label><br>
+        <label id="TurnStatus">Turn Status: Ongoing</label><br>
+        <button id="DiceRoll">Roll</button>
+        <button id="Bank Points">Bank</button><br>
+        <div id="DiceDisplay">
+        </div>
     </div>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>

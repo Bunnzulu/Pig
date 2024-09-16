@@ -9,14 +9,21 @@ div {
 label {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
 }
 
 #Title {
     font-size: 2rem;
 }
 
-#SubTitle {
-    font-size: 1.5rem;
+#Turn {
+    font-size: 2rem;
+}
+
+#DiceDisplay img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
 input{
